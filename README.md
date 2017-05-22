@@ -11,7 +11,7 @@ quando necessário.
 * Utilização de web crawler para realizar as leituras dos resultados do SEFAZ.
 
 ## Instalação
-```
+```shell
 $ pip install -r requirements.pip
 ```
 
@@ -31,7 +31,7 @@ A obtenção dos dados da empresa é realizado com a passagem do **código de va
 para o método **consult_sefaz**.
 Os dados podem ser consultados de forma única, como somente a razão social ou um **dict** com todas as informações
 
-```
+```python
 empresa = pycnpj.consult_sefaz(sefaz_captcha.get('validate_captcha'), 'AsCv98', '06.990.590/0002-04')
 print(empresa.razao_social)
 print(empresa.json())
