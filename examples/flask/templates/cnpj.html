@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta CNPJ</title>
+</head>
+<body>
+    <h2>{{ message }}</h2>
+    <form action="/" method="post">
+        <input name="validate_captcha" value="{{validate_captcha}}" type="hidden">
+        <img src="{{captcha}}">
+        <p/><input type="text" name="captcha"/>
+        <p/><label>CNPJ: </label> <input type="text" name="cnpj" value="06.990.590/0002-04"/>
+        <p/><input type="submit" value="Enviar">
+    </form>
+    {% for label, informacao in dados_sefaz %}
+        <p>{{ label }} : {{ informacao }}</p>
+    {% endfor %}
+</body>
+</html>
