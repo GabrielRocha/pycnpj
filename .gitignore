@@ -4,5 +4,5 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.django_cnpj
+.pycnpj
 .idea
