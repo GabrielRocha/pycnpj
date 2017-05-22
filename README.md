@@ -1,6 +1,6 @@
 # Consulta CNPJ 
 
-Sistema para consulta de situação cadastral de empresas na base do [SEFAZ](https://www.receita.fazenda.gov.br/pessoajuridica/cnpj/cnpjreva/cnpjreva_solicitacao.asp).
+API para consulta de situação cadastral de empresas na base do [SEFAZ](https://www.receita.fazenda.gov.br/pessoajuridica/cnpj/cnpjreva/cnpjreva_solicitacao.asp).
 
 ## Objetivo
 * Integrar o sistema de Emissão de Comprovante de Inscrição e de Situação Cadastral da receita federal com outros projetos
