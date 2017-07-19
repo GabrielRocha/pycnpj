@@ -23,7 +23,7 @@ e a código responsável por validar o captcha.
 ```python
 import pycnpj
 sefaz_captcha = pycnpj.generate_captcha()
-sefaz_captcha.get('captach')
+sefaz_captcha.get('captcha')
 sefaz_captcha.get('validate_captcha')
 ```
 
