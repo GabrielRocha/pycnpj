@@ -1,8 +1,8 @@
-from pycnpj import generate_captcha, consult_sefaz
-import flask
 import sys
 import os
 sys.path.append(os.path.realpath('../..'))
+from pycnpj import generate_captcha, consult_sefaz
+import flask
 
 
 app = flask.Flask(__name__, static_url_path="")
